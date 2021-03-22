@@ -36,7 +36,7 @@ spec:
   http: 
     service: 
       spec: 
-        type: LoadBalancer #Adds a External IP 
+        type: LoadBalancer #Adds an External IP 
   nodeSets: 
   - name: default 
     count: 1 
@@ -79,7 +79,7 @@ spec:
   http: 
     service: 
       spec: 
-        type: LoadBalancer #Adds a External IP 
+        type: LoadBalancer #Adds an External IP 
   count: 1 
   elasticsearchRef: 
     name: quickstart 
